@@ -13,7 +13,9 @@ app.get("/", (req, res) => {
 });
 
 const userRouter = require("./Routes/users");
+const catFactsRouter = require("./Routes/catFactsApi");
 
 app.use("/users", userRouter);
+app.use("/cat_facts", catFactsRouter);
 
 app.listen(3002);
