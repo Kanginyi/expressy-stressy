@@ -1,5 +1,5 @@
 {
-  "name": "expressy-stressy",
+  "name": "expressy-stressy-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
